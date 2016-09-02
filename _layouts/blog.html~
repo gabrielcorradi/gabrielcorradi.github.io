@@ -22,9 +22,10 @@
 			<div id='page'>
 				<h1 id='page-title'>{{page.title}}</h1>
 				{{content}}
-
-				{% include comment.html %}
-
+				<a rel="nofollow" target="_blank" href="http://bitcoin.travel/listing-category/bitcoin-restaurants/?type=affiliate&amp;id=293">
+					<img src="http://i1381.photobucket.com/albums/ah227/peterhoffler/Bitcoin-Travel_Restaurants_Banner_zpsv6arlaot.png">
+				</a>
+				
 			</div>
 
 			<div style='clear:both'></div>
@@ -33,6 +34,21 @@
 			{{site.full_name}} - {{site.copyright_year}}
 		</div>
 	</div>
-
+	{% include googleana.html %}
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//eversparky.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//eversparky.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </body>
 </html>
